@@ -397,13 +397,11 @@ class Model(object):
 # Sprites
 
 def loadSprite(n):
-#    filename = "C:/Users/marko/Desktop/fh/OO Skriptsprachen/sprites/" + n + ".gif"
     filename = "assets/sprites/" + n + ".gif"
     return pygame.image.load(filename).convert_alpha()
 
 
 def loadSprite2(n):
-    #filename = "C:/Users/marko/Desktop/fh/OO Skriptsprachen/sprites/" + n + ".png"
     filename = "assets/sprites/" + n + ".png"
     return pygame.image.load(filename).convert_alpha()
 
@@ -424,7 +422,6 @@ spriteGrass4 = loadSprite("grass4")
 # Animations
 
 def loadAnimation(n, num):
-    #foo = lambda index: "C:/Users/marko/Desktop/fh/OO Skriptsprachen/sprites/animations/" + n + str(index) + ".png"
     foo = lambda index: "assets/sprites/animations/" + n + str(index) + ".png"
     filenames = list(map(foo, range(1, num + 1)))
     images = []
@@ -443,7 +440,6 @@ animExplosion1 = loadAnimation("explosion", 7)
 # Sounds
 
 def loadSound(n):
-    #return pygame.mixer.Sound("C:/Users/marko/Desktop/fh/OO Skriptsprachen/sounds/" + n + ".wav")
     return pygame.mixer.Sound("assets/sounds/" + n + ".wav")
 
 

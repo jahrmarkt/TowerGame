@@ -8,14 +8,12 @@ screen = pygame.display.set_mode(size)
 
 
 def loadTower(n):
-    # filename = "C:/Users/marko/Desktop/fh/OO Skriptsprachen/sprites/towers/" + n + ".png"
     filename = "assets/sprites/towers/" + n + ".png"
 
     return pygame.image.load(filename).convert_alpha()
 
 
 def loadProjectile(n):
-    # filename = "C:/Users/marko/Desktop/fh/OO Skriptsprachen/sprites/projectiles/" + n + ".png"
     filename = "assets/sprites/projectiles/" + n + ".png"
     return pygame.image.load(filename).convert_alpha()
 
