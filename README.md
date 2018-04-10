@@ -10,3 +10,12 @@ Select towers with left click in the menu on the right and set them with left cl
 Some towers boost other towers range or attack power. Boost with right click. 
 
 Sounds made with sfxr.
+
+
+
+main.py : main loop, input handling and gamestate management(Intro, Run, Restart, Pause), run to start game
+update.py : game logic
+model.py : data-types and asset loading
+tower.py : more data-types
+towerscript.py : builds towerData.py
+towerData.py : game-related data, e.g. range and attack-power of towers
