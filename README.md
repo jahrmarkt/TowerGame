@@ -20,7 +20,10 @@ tower.py : more data-types
 towerscript.py : builds towerData.py
 towerData.py : game-related data, e.g. range and attack-power of towers
 
-
+Run:
+Go to /src,
+python towerscript.py               to build towerData 
+python main.py                      to run
 
 
 ![Alt text](game1.gif?raw=true)
